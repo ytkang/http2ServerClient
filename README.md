@@ -35,3 +35,6 @@ sendHttp1Request(host, "/test", "GOGO")
 ### Build
 go build -o client ./http2Client
 
+## Protocol
+easyjson --all ./http2Protocol/protocol.go
+
